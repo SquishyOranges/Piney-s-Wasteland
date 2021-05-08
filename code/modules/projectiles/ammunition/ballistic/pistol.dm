@@ -5,6 +5,12 @@
 	caliber = "10mm"
 	projectile_type = /obj/item/projectile/bullet/c10mm
 
+/obj/item/ammo_casing/c10mm/rubber
+	name = "10mm rubber bullet casing"
+	desc = "A 10mm rubber bullet casing."
+	caliber = "10mm"
+	projectile_type = /obj/item/projectile/bullet/c10mm/rubber
+
 /obj/item/ammo_casing/c10mm/ap
 	name = "10mm AP bullet casing"
 	desc = "A 10mm AP bullet casing."
@@ -15,12 +21,19 @@
 	desc = "A 10mm JHP bullet casing."
 	projectile_type = /obj/item/projectile/bullet/c10mm/hp
 
-// 9mm 
+
+// 9mm
 /obj/item/ammo_casing/c9mm
 	name = "9mm FMJ bullet casing"
 	desc = "A 9mm FMJ bullet casing."
 	caliber = "9mm"
 	projectile_type = /obj/item/projectile/bullet/c9mm
+
+/obj/item/ammo_casing/c9mm/rubber
+	name = "9mm rubber bullet casing"
+	desc = "A 9mm rubber bullet casing."
+	caliber = "9mm"
+	projectile_type = /obj/item/projectile/bullet/c9mm/rubber
 
 /obj/item/ammo_casing/c9mm/ap
 	name = "9mm AP bullet casing"
@@ -43,6 +56,12 @@
 	desc = "A 12.7mm FMJ bullet casing."
 	caliber = "12.7"
 	projectile_type = /obj/item/projectile/bullet/a127mm
+
+/obj/item/ammo_casing/a127mm/rubber
+	name = "12.7mm rubber bullet casing"
+	desc = "A 12.7mm rubber bullet casing."
+	caliber = "12.7"
+	projectile_type = /obj/item/projectile/bullet/a127mm/rubber
 
 /obj/item/ammo_casing/a127mm/jhp
 	name = "12.7mm JHP bullet casing"

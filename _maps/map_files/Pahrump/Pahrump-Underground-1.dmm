@@ -5197,6 +5197,15 @@
 	pixel_y = 11
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/item/ammo_box/c10mm/rubber,
+/obj/item/ammo_box/c10mm/rubber,
+/obj/item/ammo_box/c10mm/rubber,
+/obj/item/ammo_box/c9mm/rubber,
+/obj/item/ammo_box/c9mm/rubber,
+/obj/item/ammo_box/c9mm/rubber,
+/obj/item/ammo_box/m127mm/rubber,
+/obj/item/ammo_box/m127mm/rubber,
+/obj/item/ammo_box/m127mm/rubber,
 /turf/open/floor/f13{
 	icon_state = "reddirtyfull"
 	},
