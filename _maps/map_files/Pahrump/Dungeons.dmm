@@ -11721,6 +11721,8 @@
 /obj/item/clothing/glasses/sunglasses,
 /obj/item/flashlight/seclite,
 /obj/item/flashlight/seclite,
+/obj/item/ammo_box/c10mm/rubber,
+/obj/item/ammo_box/c10mm/rubber,
 /turf/open/floor/plasteel/dark,
 /area/f13/vault)
 "rgv" = (
@@ -13912,6 +13914,8 @@
 /obj/item/clothing/glasses/sunglasses,
 /obj/item/flashlight/seclite,
 /obj/item/flashlight/seclite,
+/obj/item/ammo_box/c10mm/rubber,
+/obj/item/ammo_box/c10mm/rubber,
 /turf/open/floor/plasteel/dark,
 /area/f13/vault)
 "uMj" = (
@@ -15260,6 +15264,8 @@
 /obj/item/clothing/glasses/sunglasses,
 /obj/item/flashlight/seclite,
 /obj/item/flashlight/seclite,
+/obj/item/ammo_box/c10mm/rubber,
+/obj/item/ammo_box/c10mm/rubber,
 /turf/open/floor/plasteel/dark,
 /area/f13/vault)
 "wAv" = (

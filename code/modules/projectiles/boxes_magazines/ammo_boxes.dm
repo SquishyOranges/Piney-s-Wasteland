@@ -59,6 +59,15 @@
 	max_ammo = 30
 	custom_materials = list(/datum/material/iron = 15000, /datum/material/blackpowder = 1500)
 
+/obj/item/ammo_box/c9mm/rubber
+	name = "ammo box (9mm rubber)"
+	icon_state = "9mmbox"
+	caliber = "9mm"
+	ammo_type = /obj/item/ammo_casing/c9mm/rubber
+	max_ammo = 30
+	custom_materials = list(/datum/material/iron = 15000, /datum/material/blackpowder = 1500)
+
+
 /obj/item/ammo_box/c9mm/ap
 	name = "ammo box (9mm AP)"
 	ammo_type = /obj/item/ammo_casing/c9mm/ap
@@ -78,6 +87,14 @@
 	name = "ammo box (10mm)"
 	icon_state = "10mmbox"
 	ammo_type = /obj/item/ammo_casing/c10mm
+	caliber = "10mm"
+	max_ammo = 30
+	custom_materials = list(/datum/material/iron = 10000, /datum/material/blackpowder = 1000)
+
+/obj/item/ammo_box/c10mm/rubber
+	name = "ammo box (10mm rubber)"
+	icon_state = "10mmbox"
+	ammo_type = /obj/item/ammo_casing/c10mm/rubber
 	caliber = "10mm"
 	max_ammo = 30
 	custom_materials = list(/datum/material/iron = 10000, /datum/material/blackpowder = 1000)
@@ -706,6 +723,15 @@
 	icon_state = "50aebox"
 	caliber = "12.7"
 	ammo_type = /obj/item/ammo_casing/a127mm
+	max_ammo = 30
+	w_class = WEIGHT_CLASS_NORMAL
+	custom_materials = list(/datum/material/iron = 11000, /datum/material/blackpowder = 1500)
+
+/obj/item/ammo_box/m127mm/rubber
+	name = "ammo box (12.7mm)"
+	icon_state = "50aebox"
+	caliber = "12.7"
+	ammo_type = /obj/item/ammo_casing/a127mm/rubber
 	max_ammo = 30
 	w_class = WEIGHT_CLASS_NORMAL
 	custom_materials = list(/datum/material/iron = 11000, /datum/material/blackpowder = 1500)

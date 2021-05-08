@@ -6,6 +6,13 @@
 	wound_bonus = 18
 	bare_wound_bonus = -18
 
+/obj/item/projectile/bullet/c10mm/rubber
+	name = "10mm rubber bullet"
+	damage = 5
+	stamina = 2
+	sharpness = NONE
+	embedding = null
+
 /obj/item/projectile/bullet/c10mm/ap
 	name = "10mm AP bullet"
 	damage = 24
@@ -27,6 +34,13 @@
 	armour_penetration = 0.05 //0.15
 	wound_bonus = 15
 	bare_wound_bonus = -15
+
+/obj/item/projectile/bullet/c9mm/rubber
+	name = "9mm rubber bullet"
+	damage = 5
+	stamina = 3
+	sharpness = NONE
+	embedding = null
 
 /obj/item/projectile/bullet/c9mm/ap
 	name = "9mm AP bullet"
@@ -59,6 +73,14 @@
 	armour_penetration = 0.4
 	wound_bonus = 28
 	bare_wound_bonus = -28
+
+/obj/item/projectile/bullet/a127mm/rubber
+	name = "12.7mm rubber bullet"
+	damage = 6
+	stamina = 3
+	sharpness = NONE
+	embedding = null
+
 
 /obj/item/projectile/bullet/a127mm/jhp
 	name = "12.7mm JHP bullet"

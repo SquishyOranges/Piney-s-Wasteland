@@ -19632,6 +19632,15 @@
 /obj/item/storage/fancy/ammobox/beanbag,
 /obj/item/restraints/handcuffs,
 /obj/item/restraints/handcuffs,
+/obj/item/ammo_box/c10mm/rubber,
+/obj/item/ammo_box/c10mm/rubber,
+/obj/item/ammo_box/c10mm/rubber,
+/obj/item/ammo_box/c9mm/rubber,
+/obj/item/ammo_box/c9mm/rubber,
+/obj/item/ammo_box/c9mm/rubber,
+/obj/item/ammo_box/m127mm/rubber,
+/obj/item/ammo_box/m127mm/rubber,
+/obj/item/ammo_box/m127mm/rubber,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/ncr)
 "nhf" = (
