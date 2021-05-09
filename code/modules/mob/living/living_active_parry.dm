@@ -30,10 +30,12 @@
 		data = using_item.block_parry_data
 		method = ITEM_PARRY
 		tool = using_item
+	/*
 	else if(mind?.martial_art?.can_martial_parry)
 		data = mind.martial_art.block_parry_data
 		method = MARTIAL_PARRY
 		tool = mind.martial_art
+	*/
 	else if((combat_flags & COMBAT_FLAG_UNARMED_PARRY) && check_unarmed_parry_activation_special())
 		data = block_parry_data
 		method = UNARMED_PARRY
@@ -315,8 +317,10 @@
 		return active_parry_item.get_block_parry_data()
 	else if(parrying == UNARMED_PARRY)
 		return return_block_parry_datum(block_parry_data)
+	/*
 	else if(parrying == MARTIAL_PARRY)
 		return return_block_parry_datum(mind.martial_art.block_parry_data)
+	*/
 
 /// Effects
 /obj/effect/abstract/parry

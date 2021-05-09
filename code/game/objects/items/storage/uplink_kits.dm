@@ -497,7 +497,7 @@
 		/obj/item/encryptionkey/syndicate,
 		/obj/item/clothing/glasses/thermal/syndi,
 		/obj/item/storage/box/syndie_kit/imp_uplink,
-		/obj/item/clothing/gloves/krav_maga/combatglovesplus,
+		///obj/item/clothing/gloves/krav_maga/combatglovesplus,
 		/obj/item/gun/ballistic/automatic/c20r/toy/unrestricted/riot,
 		/obj/item/reagent_containers/syringe/stimulants,
 		/obj/item/storage/box/syndie_kit/imp_freedom,

@@ -196,7 +196,7 @@
 		/obj/item/defibrillator/compact,
 		/obj/item/reagent_containers/hypospray/CMO,
 		/obj/item/clothing/accessory/medal/gold/captain,
-		/obj/item/clothing/gloves/krav_maga,
+		///obj/item/clothing/gloves/krav_maga,
 		/obj/item/nullrod,
 		/obj/item/tank/jetpack,
 		/obj/item/documents,

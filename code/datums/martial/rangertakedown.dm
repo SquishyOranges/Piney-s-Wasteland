@@ -57,7 +57,7 @@
 /datum/martial_art/rangertakedown/proc/ranger_takedown(mob/living/carbon/human/A, mob/living/carbon/human/D)
 	var/obj/item/bodypart/affecting = D.get_bodypart(ran_zone(A.zone_selected)) //Applies damage to selected area.
 	var/armor_block = D.run_armor_check(affecting, "melee") //Checks Defender's armour.
-	var/damage = (damage_roll(A,D) + 5) //Rolls damage based on the Attacker and Defender and if they have combat mode on or not, along with a flat +5 brute damage.
+	var/damage = rand(A.dna.species.punchdamagelow, A.dna.species.punchdamagehigh)
 	if(!CHECK_MOBILITY(D, MOBILITY_STAND)) //If the target is not upright, it is a regular disarm.
 		return FALSE
 	D.visible_message("<span class='warning'>[A] leg sweeps [D], performing a Ranger Takedown!", \

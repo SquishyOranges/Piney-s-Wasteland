@@ -307,11 +307,13 @@
 	export_types = list(/obj/item/clothing/gloves/boxing)
 	include_subtypes = TRUE
 
+/*
 /datum/export/gear/combatgloves
 	cost = 80
 	unit_name = "combat gloves"
 	export_types = list(/obj/item/clothing/gloves/tackler/combat, /obj/item/clothing/gloves/tackler/dolphin, /obj/item/clothing/gloves/krav_maga)
 	include_subtypes = TRUE
+*/
 
 /datum/export/gear/bonegloves
 	cost = 30

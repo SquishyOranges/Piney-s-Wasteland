@@ -7,6 +7,7 @@
 	When adding new entries to the file, please keep them sorted by category.
 */
 
+/*
 /datum/uplink_item/stealthy_weapons/combatglovesplus
 	name = "Combat Gloves Plus"
 	desc = "A pair of gloves that are fireproof and shock resistant, however unlike the regular Combat Gloves this one uses nanotechnology \
@@ -15,6 +16,7 @@
 	cost = 5
 	include_modes = list(/datum/game_mode/nuclear, /datum/game_mode/nuclear/clown_ops)
 	surplus = 0
+*/
 
 /datum/uplink_item/stealthy_weapons/cqc
 	name = "CQC Manual"
@@ -45,6 +47,7 @@
 	item = /obj/item/pen/edagger
 	cost = 2
 
+/*
 /datum/uplink_item/stealthy_weapons/martialarts
 	name = "Sleeping Carp Scroll"
 	desc = "This scroll contains the secrets of an ancient martial arts technique. You will master unarmed combat, \
@@ -54,7 +57,9 @@
 	player_minimum = 20
 	surplus = 0
 	exclude_modes = list(/datum/game_mode/nuclear, /datum/game_mode/nuclear/clown_ops)
+*/
 
+/*
 /datum/uplink_item/stealthy_weapons/martialartstwo
 	name = "Rising Bass Scroll"
 	desc = "This scroll contains the secrets of an ancient martial arts technique. You will become proficient in fleeing situations, \
@@ -64,7 +69,9 @@
 	player_minimum = 20
 	surplus = 0
 	exclude_modes = list(/datum/game_mode/nuclear, /datum/game_mode/nuclear/clown_ops)
+*/
 
+/*
 /datum/uplink_item/stealthy_weapons/martialartsthree
 	name = "Krav Maga Scroll"
 	desc = "This scroll contains the secrets of an ancient martial arts technique. You will gain special unarmed attacks for \
@@ -74,6 +81,7 @@
 	player_minimum = 25
 	surplus = 0
 	include_modes = list(/datum/game_mode/traitor/internal_affairs)
+*/
 
 /datum/uplink_item/stealthy_weapons/crossbow
 	name = "Miniature Energy Crossbow"

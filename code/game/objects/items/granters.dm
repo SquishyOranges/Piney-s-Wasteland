@@ -439,6 +439,7 @@
 	user.adjustFireLoss(6)
 	qdel(src)
 
+/*
 /obj/item/book/granter/martial/carp
 	martial = /datum/martial_art/the_sleeping_carp
 	name = "mysterious scroll"
@@ -457,7 +458,9 @@
 		desc = "It's completely blank."
 		name = "empty scroll"
 		icon_state = "blankscroll"
+*/
 
+/*
 /obj/item/book/granter/martial/bass
 	martial = /datum/martial_art/the_rising_bass
 	name = "shifting scroll"
@@ -474,6 +477,7 @@
 		desc = "It's completely blank."
 		name = "empty scroll"
 		icon_state = "blankscroll"
+*/
 
 /obj/item/book/granter/martial/plasma_fist
 	martial = /datum/martial_art/plasma_fist
@@ -493,6 +497,7 @@
 		name = "empty scroll"
 		icon_state = "blankscroll"
 
+/*
 /obj/item/book/granter/martial/krav_maga
 	martial = /datum/martial_art/krav_maga
 	name = "parchment scroll"
@@ -509,6 +514,7 @@
 		desc = "It's completely blank."
 		name = "empty scroll"
 		icon_state = "blankscroll"
+*/
 
 // I did not include mushpunch's grant, it is not a book and the item does it just fine.
 
@@ -866,7 +872,7 @@
 
 /obj/item/book/granter/trait/selection/attack_self(mob/user)
 	var/list/choices = list("Hard Yards","Minor Surgery","Power Armor","Chemistry","Salvager","Melee Expert", "Tinkerer")
-	if(granted_trait == null)	
+	if(granted_trait == null)
 		var/choice = input("Choose a trait:") in choices
 		switch(choice)
 			if(null)
@@ -893,9 +899,9 @@
 			if("Tinkerer")
 				granted_trait = TRAIT_MASTER_GUNSMITH
 				traitname = "tinkering"
-	else 
+	else
 		. = ..()
-		
+
 /obj/item/book/granter/trait/selection/Initialize()
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NODROP, TRAIT_GENERIC)
