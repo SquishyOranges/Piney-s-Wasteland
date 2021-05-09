@@ -89,6 +89,14 @@
 	max_ammo = 12
 	multiple_sprites = 2
 
+/obj/item/ammo_box/magazine/m10mm_adv/rubber
+	name = "10mm pistol magazine (10mm rubber)"
+	icon_state = "smg10mm"
+	ammo_type = /obj/item/ammo_casing/c9mm/rubber
+	caliber = "10mm"
+	max_ammo = 12
+	multiple_sprites = 2
+
 /obj/item/ammo_box/magazine/m10mm_adv/empty
 	start_empty = 1
 
@@ -116,6 +124,15 @@
 	max_ammo = 10
 	multiple_sprites = 2
 
+/obj/item/ammo_box/magazine/m9mm/rubber
+	name = "9mm pistol magazine (9mm rubber)"
+	icon_state = "9mmp"
+	ammo_type = /obj/item/ammo_casing/c9mm/rubber
+	caliber = "9mm"
+	max_ammo = 10
+	multiple_sprites = 2
+
+
 /obj/item/ammo_box/magazine/m9mm/empty
 	start_empty = 1
 
@@ -123,6 +140,14 @@
 	name = "handgun magazine (12.7)"
 	icon_state = "magnum"
 	ammo_type = /obj/item/ammo_casing/a127mm
+	caliber = "12.7"
+	max_ammo = 7
+	multiple_sprites = 2
+
+/obj/item/ammo_box/magazine/m127mm/rubber
+	name = "handgun magazine (12.7 rubber)"
+	icon_state = "magnum"
+	ammo_type = /obj/item/ammo_casing/a127mm/rubber
 	caliber = "12.7"
 	max_ammo = 7
 	multiple_sprites = 2
