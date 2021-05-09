@@ -8,8 +8,8 @@
 
 /obj/item/projectile/bullet/c10mm/rubber
 	name = "10mm rubber bullet"
-	damage = 5
-	stamina = 2
+	damage = 6
+	stamina = 10
 	sharpness = NONE
 	embedding = null
 
@@ -38,7 +38,7 @@
 /obj/item/projectile/bullet/c9mm/rubber
 	name = "9mm rubber bullet"
 	damage = 5
-	stamina = 3
+	stamina = 8
 	sharpness = NONE
 	embedding = null
 
@@ -76,8 +76,8 @@
 
 /obj/item/projectile/bullet/a127mm/rubber
 	name = "12.7mm rubber bullet"
-	damage = 6
-	stamina = 3
+	damage = 9
+	stamina = 10
 	sharpness = NONE
 	embedding = null
 

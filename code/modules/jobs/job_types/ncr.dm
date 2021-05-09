@@ -567,16 +567,16 @@ Rear Echelon
 
 //Guard duty
 /datum/outfit/loadout/rearstatic
-	name = "Static Infantry"
+	name = "Guards men"
 	head = /obj/item/clothing/head/f13/ncr
 	belt = /obj/item/storage/belt/military/NCR_Bandolier
 	backpack_contents = list(
-		/obj/item/gun/ballistic/automatic/m1carbine=1, \
-		/obj/item/ammo_box/magazine/m10mm_adv/simple=3)
+		/obj/item/gun/ballistic/automatic/m1carbine=1,
+		/obj/item/ammo_box/magazine/m10mm_adv/simple=3,
+		/obj/item/ammo_box/magazine/m10mm_adv/rubber=3,
+		/obj/item/melee/classic_baton/telescopic=1)
 
-/*
-Trooper
-*/
+
 
 /datum/job/ncr/f13ncroffduty
 	title = "NCR Off-Duty"
