@@ -91,7 +91,7 @@
 
 /obj/item/ammo_box/magazine/m10mm_adv/rubber
 	name = "10mm pistol magazine (10mm rubber)"
-	icon_state = "smg10mm"
+	icon_state = "10mm"
 	ammo_type = /obj/item/ammo_casing/c9mm/rubber
 	caliber = "10mm"
 	max_ammo = 12
